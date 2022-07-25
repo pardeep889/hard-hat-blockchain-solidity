@@ -11,6 +11,10 @@ module.exports = {
       url: process.env.RPC_URL,
       accounts: [process.env.PRIVATE_KEY],
       chainId: 4
+    },
+    localhost: {
+      url: "http://127.0.0.1:8545/",
+      chainId: 31337
     }
   },
   solidity: "0.8.9",
